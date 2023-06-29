@@ -1,0 +1,15 @@
+{
+    "title": "Usuario de TikTok mediante metadata",
+    "description": "Muestra metadata de un user de tiktok",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "user": {
+            "title": "Usuario de TikTok",
+            "description": "user",
+            "type": "string",
+            "editor": "json"
+        }
+    },
+    "required": ["user"]
+}

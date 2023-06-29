@@ -1,0 +1,92 @@
+{
+    "actorSpecification": 1,
+    "name": "tiktokscrapper",
+    "title": "TiktokScrapper",
+    "version": "2.7.1",
+    "storages": {
+        "dataset": {
+            "actorSpecification": 1,
+            "views": {
+                "overview": {
+                    "title": "TiktokScrapper Dataset",
+                    "transformation": {
+                        "fields": [
+                            "id",
+                            "uniqueId",
+                            "nickname",
+                            "avatar",
+                            "signature",
+                            "createdAt",
+                            "verified",
+                            "secretUID",
+                            "bioLink",
+                            "privateAccount",
+                            "followers",
+                            "following",
+                            "hearts",
+                            "videos"
+                        ]
+                    },
+                    "display": {
+                        "component": "table",
+                        "properties": {
+                            "id": {
+                                "label": "ID",
+                                "format": "number"
+                            },
+                            "avatar": {
+                                "format": "image"
+                            },
+                            "uniqueId": {
+                                "label": "ID unico",
+                                "format": "text"
+                            },
+                            "nickname": {
+                                "label": "Nickname",
+                                "format": "text"
+                            },
+                            "createdAt": {
+                                "label": "createdAt",
+                                "format": "text"
+                            },
+                            "verified": {
+                                "label": "Verificado",
+                                "format": "text"
+                            },
+                            "secretUID": {
+                                "label": "secretUID",
+                                "format": "text"
+                            },
+                            "bioLink": {
+                                "label": "bioLink",
+                                "format": "text"
+                            },
+                            "privateAccount": {
+                                "label": "privateAccount",
+                                "format": "text"
+                            },
+                            "followers": {
+                                "label": "Seguidores",
+                                "format": "number"
+                            },
+                            "following": {
+                                "label": "Siguiendo",
+                                "format": "number"
+                            },
+                            "hearts": {
+                                "label": "Me gusta",
+                                "format": "number"
+                            },
+                            "videos": {
+                                "label": "Videos",
+                                "format": "number"
+                            }
+
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
