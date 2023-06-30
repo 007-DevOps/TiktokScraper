@@ -7,7 +7,7 @@
         "user": {
             "title": "Usuario de TikTok",
             "description": "user",
-            "type": "text",
+            "type": "string",
             "editor": "javascript"
         }
     },
